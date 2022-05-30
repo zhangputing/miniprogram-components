@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+    "usingComponents": {
+        "textBlock": "/components/text/text",
+        "listEditor": "/components/list/list"
+    }
 }

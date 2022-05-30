@@ -1,0 +1,7 @@
+<view class="list-editor">
+    <block wx:for="{{items}}" wx:key="id">
+        <view class="item {{index === selectedIndex ? 'selected' : ''}}" bindtap="onItemClick" data-index="{{index}}">
+            <text class="text">{{item}}</text>
+        </view>
+    </block>
+</view>

@@ -1,0 +1,12 @@
+.list-editor {
+    border-top: 1px solid black;
+    .item {
+        border: 1px solid black;
+        height: 50rpx;
+        margin-top: -1px;
+        background-color: #ffffff;
+        &.selected {
+            background-color: #d3d3d3;
+        }
+    }
+}
