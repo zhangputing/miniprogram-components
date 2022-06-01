@@ -1,0 +1,9 @@
+<view class="comboBox">
+    <view class="select-block" bindtap="showItemsList">
+        <text class="text-block">{{items[selectedIndex]}}</text>
+        <text class="arrow-block">
+            <text class="arrow-icon"></text>
+        </text>
+    </view>
+    <list items="{{items}}" selectIndex="{{selectedIndex}}" class="item-block {{showItemsList === true ? 'show' : ''}}" bindListValueChanged="onSelectChanged"></list>
+</view>

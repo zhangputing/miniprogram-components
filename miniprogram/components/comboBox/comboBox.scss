@@ -1,0 +1,35 @@
+.comboBox {
+    position: relative;
+    .select-block {
+        display: flex;
+        border: 1px solid black;
+        .text-block {
+            flex: 1 1 35rpx;
+        }
+        .arrow-block {
+            display: block;
+            position: relative;
+            border-left: 1px solid black;
+            flex: 0 0 35rpx;
+            .arrow-icon {
+                width: 1rpx;
+                position: absolute;
+                right: 4rpx;
+                top: 18rpx;
+                border: 10rpx solid transparent;
+                border-top-color: black;
+            }
+        }
+    }
+    .item-block {
+        position: absolute;
+        top: 45rpx;
+        z-index: 3;
+        opacity: 1;
+        display: none;
+        width: 100%;
+        &.show {
+            display: block;
+        }
+    }
+}

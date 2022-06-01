@@ -1,8 +1,14 @@
 <view class="container">
+  <view class="label">1.Text Block</view>
   <view class="text-container">
     <textBlock text="This is a text block" bindTextClicked="onTextBlockClicked"></textBlock>
   </view>
+  <view class="label">2.List Editor</view>
   <view class="list-editor-container">
     <listEditor items="{{listItems}}" selectedIndex="1"  bindListValueChanged="onListValueChanged"></listEditor>
+  </view>
+  <view class="label">3.ComboBox Editor</view>
+  <view class="combobox-editor-container">
+    <comboBox items="{{listItems}}" selectedIndex="1"  bindComboBoxValueChanged="onComboboxValueChanged"></comboBox>
   </view>
 </view>

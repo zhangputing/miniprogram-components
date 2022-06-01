@@ -13,5 +13,9 @@ Page({
 
     onListValueChanged: function (event: any) {
         console.log(event);
+    },
+
+    onComboboxValueChanged: function (event: any) {
+        console.log(event);
     }
 });

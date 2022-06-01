@@ -1,6 +1,7 @@
 {
     "usingComponents": {
         "textBlock": "/components/text/text",
-        "listEditor": "/components/list/list"
+        "listEditor": "/components/list/list",
+        "comboBox": "/components/comboBox/comboBox"
     }
 }
